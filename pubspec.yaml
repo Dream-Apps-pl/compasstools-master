@@ -1,0 +1,21 @@
+name: compasstools
+description: Useful tools to access sensors to develop a Compass App
+version: 0.0.2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.ninjapirateinc.compasstools
+    pluginClass:  CompasstoolsPlugin
+
+
